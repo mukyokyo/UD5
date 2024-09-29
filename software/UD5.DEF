@@ -1,0 +1,55 @@
+[TARGET]
+NAME=¢UD5£
+[GCC]
+InstallFolder=¢ARM£
+Target=¢arm-none-eabi£
+OptimizeLevel=4
+[AS]
+[LD]
+MakeMapFile=1
+ScriptFile=¢LPC84x\lpc845_rom_term.x£
+AddLib.Count=7
+AddLib.0=¢m£
+AddLib.1=¢UD5£
+AddLib.2=¢LPC84x_EXTRA£
+AddLib.3=¢freertos_cm0p£
+AddLib.4=¢lpc84x£
+AddLib.5=¢lpc_chip_84x£
+AddLib.6=¢lpc84x£
+[DBG]
+RUNCommand=¢£
+GDBCommand=¢arm-elf-gdb.exe£
+RUNBootOption=¢£
+GDBBootOption=¢-w£
+BuildOption=¢dwarf-2£
+[Folder]
+IncludeFolder.Count=7
+IncludeFolder.0=¢..\lib£
+IncludeFolder.1=¢LPC84x£
+IncludeFolder.2=¢LPC84x\cmsis£
+IncludeFolder.3=¢LPC84x\lpc_chip_84x\inc£
+IncludeFolder.4=¢LPC84x_EXTRA£
+IncludeFolder.5=¢DXLIB£
+IncludeFolder.6=¢FREERTOS_CM0P\inc£
+LibraryFolder.Count=6
+LibraryFolder.0=¢..\lib£
+LibraryFolder.1=¢LPC84x£
+LibraryFolder.2=¢LPC84x\cmsis£
+LibraryFolder.3=¢LPC84x\lpc_chip_84x£
+LibraryFolder.4=¢LPC84x_EXTRA£
+LibraryFolder.5=¢FREERTOS_CM0P£
+[ETC]
+Option.Count=5
+Option.0=¢-mcpu=cortex-m0plus -DF_CPU=30000000 -D__FLASH_TARGET__ -DNDEBUG -D__USE_LPCOPEN -DCORE_M0PLUS -D__VTOR_PRESENT -mthumb-interwork -mthumb£
+Option.1=¢-nostartfiles£
+Option.2=¢-Wall -Wno-main -Wshadow -Wcast-align -Wpointer-arith -Wswitch -Wredundant-decls -Wreturn-type -Wshadow -Wunused£
+Option.3=¢-fno-builtin -ffunction-sections -fdata-sections -fno-use-cxa-atexit -Xlinker --gc-sections -Xlinker --allow-multiple-definition --specs=nano.specs --specs=nosys.specs.£
+Option.4=¢-Xlinker --gc-sections -Xlinker -print-memory-usage£
+BinUtilOut=1
+FileSaveBeforGCC=1
+ObjCopyOption=¢£
+[FW]
+EnableBootFW=1
+NotBootDebug=1
+ExtBootFile=¢($GDL)\STERM.exe£
+FWBootOpt=¢-DP -SSTERM_LPC84x.txt -B115200 ($PGENE)£

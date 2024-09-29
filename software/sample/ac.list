@@ -1,0 +1,64 @@
+#include "ud5.hpp"
+
+
+void\sUD5_WAIT\s(uint32_t ms);
+uint32_t\sUD5_GET_ELAPSEDTIME ()
+void\sUD5_SOFTRESET ();
+void\sUD5_LOWPOWERMODE ();
+
+enum\sCGPIO::tPinDIN\s//
+enum\sCGPIO::tPinDIN_PU\s//
+enum\sCGPIO::tPinDIN_PD\s//
+enum\sCGPIO::tPinDOUT\s//
+enum\sCGPIO::tPinDOUT_OD\s//
+enum\sCGPIO::tPinAIN\s//
+enum\sCGPIO::tPinINT0_MPW\s//
+enum\sCGPIO::tPinINT1_MPW\s//
+enum\sCGPIO::tPinINT2_MPW\s//
+enum\sCGPIO::tPinINT3_MPW\s//
+enum\sCGPIO::tPinINT4_MPW\s//
+enum\sCGPIO::tPinINT5_MPW\s//
+enum\sCGPIO::tPinINT6_MPW\s//
+enum\sCGPIO::tPinINT7_MPW\s//
+enum\sCGPIO::tPinINT0_ENC0A\s//
+enum\sCGPIO::tPinINT1_ENC0A\s//
+enum\sCGPIO::tPinINT2_ENC0A\s//
+enum\sCGPIO::tPinINT3_ENC0A\s//
+enum\sCGPIO::tPinINT4_ENC0A\s//
+enum\sCGPIO::tPinINT5_ENC0A\s//
+enum\sCGPIO::tPinINT6_ENC0A\s//
+enum\sCGPIO::tPinINT7_ENC0A\s//
+enum\sCGPIO::tPinINT0_ENC0B\s//
+enum\sCGPIO::tPinINT1_ENC0B\s//
+enum\sCGPIO::tPinINT2_ENC0B\s//
+enum\sCGPIO::tPinINT3_ENC0B\s//
+enum\sCGPIO::tPinINT4_ENC0B\s//
+enum\sCGPIO::tPinINT5_ENC0B\s//
+enum\sCGPIO::tPinINT6_ENC0B\s//
+enum\sCGPIO::tPinINT7_ENC0B\s//
+enum\sCGPIO::tPinINT0_ENC1A\s//
+enum\sCGPIO::tPinINT1_ENC1A\s//
+enum\sCGPIO::tPinINT2_ENC1A\s//
+enum\sCGPIO::tPinINT3_ENC1A\s//
+enum\sCGPIO::tPinINT4_ENC1A\s//
+enum\sCGPIO::tPinINT5_ENC1A\s//
+enum\sCGPIO::tPinINT6_ENC1A\s//
+enum\sCGPIO::tPinINT7_ENC1A\s//
+enum\sCGPIO::tPinINT0_ENC1B\s//
+enum\sCGPIO::tPinINT1_ENC1B\s//
+enum\sCGPIO::tPinINT2_ENC1B\s//
+enum\sCGPIO::tPinINT3_ENC1B\s//
+enum\sCGPIO::tPinINT4_ENC1B\s//
+enum\sCGPIO::tPinINT5_ENC1B\s//
+enum\sCGPIO::tPinINT6_ENC1B\s//
+enum\sCGPIO::tPinINT7_ENC1B\s//
+enum\sCGPIO::tPinSPISEL\s//
+enum\sCGPIO::tPinSPISCK\s//
+enum\sCGPIO::tPinSPIMISO\s//
+enum\sCGPIO::tPinSPIMOSI\s//
+enum\sCGPIO::tPinSPFUNC\s//
+
+enum\sCEXIO::tPinDIN\s//
+enum\sCEXIO::tPinDIN_PU\s//
+enum\sCEXIO::tPinDIN_PD\s//
+enum\sCEXIO::tPinDOUT\s//
